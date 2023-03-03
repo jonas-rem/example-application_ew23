@@ -1,0 +1,4 @@
+Tested with the following boards:
+- reel_board
+- atsamr21_xpro
+- nucleo_l496zg
