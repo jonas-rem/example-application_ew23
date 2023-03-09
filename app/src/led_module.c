@@ -45,7 +45,8 @@ void led_thread(void)
 
 		zbus_chan_read(chan, &msg, K_MSEC(200));
 
-		LOG_DBG("Button on GPIO %d pressed, toggle LED...", msg.pin);
+		LOG_DBG("Rcv from '%s', Message: GPIO%d\n", chan->name,
+				msg.pin);
 		ret = gpio_pin_toggle_dt(&led);
 		if (ret < 0) {
 			return;
