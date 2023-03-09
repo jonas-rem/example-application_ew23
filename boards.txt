@@ -1,4 +1,4 @@
 Tested with the following boards:
-- reel_board
+- reel_board_v2
 - atsamr21_xpro
 - nucleo_l496zg
